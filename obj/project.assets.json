@@ -2,6 +2,19 @@
   "version": 3,
   "targets": {
     "net6.0": {
+      "DefaultEcs/0.17.2": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.1/DefaultEcs.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.1/DefaultEcs.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "MonoGame.Content.Builder.Task/3.8.1.303": {
         "type": "package",
         "build": {
@@ -58,6 +71,24 @@
     }
   },
   "libraries": {
+    "DefaultEcs/0.17.2": {
+      "sha512": "3It4x4eCRuJZ3jvMFJFuyL6a4N6+zT0QUopY60xQxikAtzFh7tZ0oDtw8VVT83H95LOJzWZud8lIMVUbtOA7kg==",
+      "type": "package",
+      "path": "defaultecs/0.17.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "defaultecs.0.17.2.nupkg.sha512",
+        "defaultecs.nuspec",
+        "lib/netstandard1.1/DefaultEcs.dll",
+        "lib/netstandard1.1/DefaultEcs.xml",
+        "lib/netstandard2.0/DefaultEcs.dll",
+        "lib/netstandard2.0/DefaultEcs.xml",
+        "lib/netstandard2.1/DefaultEcs.dll",
+        "lib/netstandard2.1/DefaultEcs.xml",
+        "logo.png"
+      ]
+    },
     "MonoGame.Content.Builder.Task/3.8.1.303": {
       "sha512": "9Ilzzje62LhWElbPNEl7vh7XsRSbze+lvCJdZtTZUGu48FRgvYN6THURwIB9PN98EI33/Wnf6iuShNUtD7hL4Q==",
       "type": "package",
@@ -97,6 +128,7 @@
   },
   "projectFileDependencyGroups": {
     "net6.0": [
+      "DefaultEcs >= 0.17.2",
       "MonoGame.Content.Builder.Task >= 3.8.1.303",
       "MonoGame.Framework.DesktopGL >= 3.8.1.303"
     ]
@@ -146,6 +178,10 @@
       "net6.0": {
         "targetAlias": "net6.0",
         "dependencies": {
+          "DefaultEcs": {
+            "target": "Package",
+            "version": "[0.17.2, )"
+          },
           "MonoGame.Content.Builder.Task": {
             "target": "Package",
             "version": "[3.8.1.303, )"

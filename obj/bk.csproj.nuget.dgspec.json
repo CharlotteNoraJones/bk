@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\CharlotteJ\\Documents\\Projects\\bk\\bk.csproj": {}
+    "C:\\Users\\CharlotteJ\\Documents\\Projects\\bk\\bk.csproj": {}
   },
   "projects": {
-    "c:\\Users\\CharlotteJ\\Documents\\Projects\\bk\\bk.csproj": {
+    "C:\\Users\\CharlotteJ\\Documents\\Projects\\bk\\bk.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\CharlotteJ\\Documents\\Projects\\bk\\bk.csproj",
+        "projectUniqueName": "C:\\Users\\CharlotteJ\\Documents\\Projects\\bk\\bk.csproj",
         "projectName": "bk",
-        "projectPath": "c:\\Users\\CharlotteJ\\Documents\\Projects\\bk\\bk.csproj",
+        "projectPath": "C:\\Users\\CharlotteJ\\Documents\\Projects\\bk\\bk.csproj",
         "packagesPath": "C:\\Users\\CharlotteJ\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\CharlotteJ\\Documents\\Projects\\bk\\obj\\",
+        "outputPath": "C:\\Users\\CharlotteJ\\Documents\\Projects\\bk\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\CharlotteJ\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -46,6 +46,10 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "DefaultEcs": {
+              "target": "Package",
+              "version": "[0.17.2, )"
+            },
             "MonoGame.Content.Builder.Task": {
               "target": "Package",
               "version": "[3.8.1.303, )"

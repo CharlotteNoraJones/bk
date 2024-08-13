@@ -1,14 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "DRrQG8XbrRSFQRp8TMH5OC0NS+t6A+dLd6g7cKLsmzI+8ew5fkh9LNGcl8ekh/n1CRCIEe0DYKm+KNQs3IquGg==",
+  "dgSpecHash": "+33NloFNxas=",
   "success": true,
-  "projectFilePath": "/home/amyweiss/Documents/Projects/bk/bk.csproj",
+  "projectFilePath": "c:\\Users\\CharlotteJ\\Documents\\Projects\\bk\\bk.csproj",
   "expectedPackageFiles": [
-    "/home/amyweiss/.nuget/packages/monogame.content.builder.task/3.8.1.303/monogame.content.builder.task.3.8.1.303.nupkg.sha512",
-    "/home/amyweiss/.nuget/packages/monogame.framework.desktopgl/3.8.1.303/monogame.framework.desktopgl.3.8.1.303.nupkg.sha512",
-    "/home/amyweiss/.nuget/packages/microsoft.netcore.app.ref/6.0.28/microsoft.netcore.app.ref.6.0.28.nupkg.sha512",
-    "/home/amyweiss/.nuget/packages/microsoft.aspnetcore.app.ref/6.0.28/microsoft.aspnetcore.app.ref.6.0.28.nupkg.sha512",
-    "/home/amyweiss/.nuget/packages/microsoft.netcore.app.host.linux-x64/6.0.28/microsoft.netcore.app.host.linux-x64.6.0.28.nupkg.sha512"
+    "C:\\Users\\CharlotteJ\\.nuget\\packages\\monogame.content.builder.task\\3.8.1.303\\monogame.content.builder.task.3.8.1.303.nupkg.sha512",
+    "C:\\Users\\CharlotteJ\\.nuget\\packages\\monogame.framework.desktopgl\\3.8.1.303\\monogame.framework.desktopgl.3.8.1.303.nupkg.sha512"
   ],
   "logs": []
 }
